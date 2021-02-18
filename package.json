@@ -1,0 +1,24 @@
+{
+  "name": "cors_anywhere",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "cors-anywhere": "^0.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelmcmillen/cors_anywhere.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelmcmillen/cors_anywhere/issues"
+  },
+  "homepage": "https://github.com/michaelmcmillen/cors_anywhere#readme"
+}
