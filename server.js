@@ -5,9 +5,9 @@ app.use(express.json());
 // app.use(cors()); 
 
 // Listen on a specific host via the HOST environment variable
-var host = process.env.HOST || '127.0.0.1';
+var host = process.env.HOST || '0.0.0.0';
 // Listen on a specific port via the PORT environment variable
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8080;
 
 app.listen(port, () => {
     console.log(`Express running on ${ port }`);
