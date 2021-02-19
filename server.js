@@ -5,7 +5,7 @@ var port = process.env.PORT || 8080;
  
 var cors_proxy = require('cors-anywhere');
 cors_proxy.createServer({
-    originWhitelist: ['https://michaelmcmillen.github.io/'], // Allow all origins
+    originWhitelist: ['https://michaelmcmillen.github.io/iss_mapping/'], // Allow all origins
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
 }).listen(port, host, function() {
