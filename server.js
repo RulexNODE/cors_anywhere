@@ -1,8 +1,8 @@
 const express = require('express');
-const cors = require('cors');
+// const cors = require('cors');
 const app = express();
 app.use(express.json());
-app.use(cors()); 
+// app.use(cors()); 
 
 // Listen on a specific host via the HOST environment variable
 var host = process.env.HOST || '127.0.0.1';
