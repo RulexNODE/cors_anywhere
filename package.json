@@ -4,8 +4,7 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "cors-anywhere": "^0.4.3",
-    "express": "^4.17.1"
+    "cors-anywhere": "^0.4.3"
   },
   "devDependencies": {},
   "scripts": {
