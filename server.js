@@ -8,7 +8,6 @@ var port = process.env.PORT || '8080';
 
 var cors_proxy = require('cors-anywhere');
 cors_proxy.createServer({
-    requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2'],
   redirectSameOrigin: true
 }).listen(port, host, function() {
